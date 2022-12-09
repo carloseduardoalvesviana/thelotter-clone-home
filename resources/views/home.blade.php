@@ -154,13 +154,92 @@
                 </div>
 
             </div>
-
             <img class="col-md-4 col-sm-12 img border-0 imageChange rounded" src="{{ asset('img2.jpeg') }}">
         </div>
-
     </div>
 
-    <div class="container mt-3">
+    <div class="container text-center text-white">
+        <div class="row mx-auto my-auto justify-content-center">
+            <div id="recipeCarousel" class="carousel slide p-5" data-bs-ride="carousel">
+                <div class="carousel-inner g-1" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card bg-primary" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card bg-primary" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card bg-primary" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card bg-primary" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card bg-primary" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev  w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {{-- <div class="container mt-3">
         <div class="row px-5">
             <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner text-center text-white d-flex" role="listbox">
@@ -275,7 +354,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <h3 class="text-center mt-5 mb-5">Conheça a theLotter Brasil</h3>
     <div class="container text-center mt-3 d-flex justify-content-around">
@@ -320,76 +399,35 @@
 
     </div>
 
-    {{-- rifas --}}
+
+    {{--  --}}
     <h3 class="text-center mt-5 mb-5">Rifas</h3>
-    <div class="container mt-3">
-        <div class="row px-5">
-            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner text-center text-white d-flex" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/logo.png') }}" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/logo.png') }}" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/logo.png') }}" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4">
-                            <img src="{{ asset('assets/logo.png') }}" class="img-fluid rounded-start" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="container text-center mt-3 d-flex justify-content-around">
+        <div class="card border-0 h-100">
+            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                        class="bi bi-file-person"></i></div>
+                <h2 class="fs-4 fw-bold">Sobre nós</h2>
             </div>
-            <a class="carousel-control-prev  w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next  w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
+        </div>
+        <div class="card border-0 h-100">
+            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                        class="bi bi-journal"></i></div>
+                <h2 class="fs-4 fw-bold">FAQ</h2>
+            </div>
+        </div>
+        <div class="card  border-0 h-100">
+            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                <div class="feature bg-secondary  bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                        class="bi bi-file-break"></i>
+                </div>
+                <h2 class="fs-4 fw-bold">Bilhete digitalizado</h2>
+            </div>
         </div>
     </div>
-    </div>
 
+    {{-- rifas --}}
 
     <div class="modal h-60" id="myModal">
         <div class="modal-dialog">
@@ -431,6 +469,250 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="container text-center mt-5">
+        <div>
+            <h4>A opinião dos nossos clientes</h4>
+        </div>
+        <div class="row mx-auto my-auto justify-content-center">
+            <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card bg-light" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-light" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-light" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-light" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-light" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card bg-light" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev  w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-secondary mt-5"
+        style="background-image:url({{ asset('footer/fundo.png') }});width:100%;padding: 25px 250px;font-size:10pt">
+        <div>
+            <div>
+                <a href="#">
+                    <img style="width: 20vh;margin-right:3%;" src="{{ asset('footer/apple.png') }}" alt="apple">
+                </a>
+                <a href="#">
+                    <img style="width: 22vh;margin-right:3%;" src="{{ asset('footer/android.png') }}" alt="android">
+                    <a href="#"></a>
+            </div>
+            <div class="mt-3">
+
+                <a href="#">
+                    <img style="width: 18vh;margin-right:3%;" src="{{ asset('footer/garantida.png') }}"
+                        alt="garantida">
+                </a>
+                <a href="#">
+                    <img style="width: 20vh;margin-right:3%;" src="{{ asset('footer/gamcare.png') }}" alt="gamcare">
+                </a>
+
+
+                <a href="#">
+                    <img style="width: 20vh;margin-right:3%;" src="{{ asset('footer/geotrust.png') }}"
+                        alt="geotrust">
+                </a>
+                <a href="#">
+                    <img style="width: 10vh;margin-right:3%;" src="{{ asset('footer/ga.png') }}" alt="ga">
+                </a>
+
+                <a href="#"><img style="width: 10vh;margin-right:3%;" src="{{ asset('footer/18.png') }}"
+                        alt="18"></a>
+            </div>
+
+            <hr>
+            <div class="text-justify">
+                <p>Este site é operado pela Laora Limited, uma empresa registrada em São Vicente e Granadinas (número de
+                    registro 26585 BC 2021). Aikmina Services Limited, o processador de pagamento, é uma empresa
+                    registrada em Chipre (número de registro HE 253243), com sede registrada em Gr. Xenopoulou, 17,
+                    3106, Limassol, Chipre.</p>
+                <p>Laora Limited e suas marcas associadas operam como um serviço independente de compra de bilhetes de
+                    loteria e não são associadas nem endossadas pela MUSL, Française des Jeux ou Loterías y Apuestas del
+                    Estado, nem por qualquer empresa que administre qualquer produto para o qual os serviços deles sejam
+                    empregados.</p>
+                <p><i class="bi bi-exclamation-circle text-primary"></i> &nbsp; <a href="#">Apostar em jogos de
+                        azar pode ser prejudicial, se não for feito de forma controlada. Jogue com responsabilidade.
+                    </a></p>
+            </div>
+
+            <div class="mt-5 row">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Regulamentação</h5>
+                            <div class="row">
+                                <div class="card-text">
+                                    <div class="col-md-6 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span class="text-secondary secondary card-text">Termos
+                                                    de uso</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span
+                                                    class="text-secondary secondary card-text">Política de <br>
+                                                    cookies</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span
+                                                    class="text-secondary secondary card-text">Política de <br>
+                                                    Privacidade</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Sobre nós</h5>
+                            <div class="row">
+                                <div class="card-text">
+                                    <div class="col-md-6 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span
+                                                    class="text-secondary secondary card-text">Programa de <br>
+                                                    afiliação <br> theLotter</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span class="text-secondary secondary card-text">Entre
+                                                    em contato</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span
+                                                    class="text-secondary secondary card-text">RSS</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Sobre nós</h5>
+                            <div class="row">
+                                <div class="card-text">
+                                    <div class="col-md-6 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span class="text-secondary secondary card-text">Sobre
+                                                    nós Transação bancária</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span
+                                                    class="text-secondary secondary card-text">FAQ</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mt-5">
+                                        <div class="card-text">
+                                            <a href="#"><span
+                                                    class="text-secondary secondary card-text">Impostos <br>
+                                                    loteria</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
